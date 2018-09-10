@@ -1,42 +1,67 @@
 /*Selector{
     Property: value;
 }*/
+
 header{
     font-family: 'Poiret One', cursive;
     text-align: center;
+    font-size: 125%
 }
+
+h2{
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
 body{
     background-image: url(backgroundimage.jpg);
+    /*background-color: rgb(250, 130, 49);*/
     background-size: cover;
+    
 }
 
 nav{
     font-family: 'Poiret One', cursive;
     text-align: center;
     cursor: pointer;
+    font-weight: bold;
     /*border: 5px dashed green;
     */
 }
 
-#div1{
+#container {
     font-family: 'Poiret One', cursive;
     text-align: center;
+    border:5px solid rgb(75, 101, 132);
+    height: 100%;
+    width: 100%;
+    overflow:hidden;
+    border-radius:100px;
+    border-block-start-width: 1009099999999;
+    background-color: rgb(119, 140, 163, 0.9)
 }
 
-#div2{
-    font-family: 'Poiret One', cursive;
-    text-align: center;
+
+.projectDetail{
+    background : rgb(119, 140, 163)
 }
 
-.div1{
-    border: dashed;
-}
+
 
 p{
     text-align: center;
 }
 
 footer{
+    font-style: italic;
+    
     clear: both;
     color: #fdcb6e;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
 }
